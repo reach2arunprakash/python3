@@ -77,13 +77,5 @@ echoes it back, but if you make a file that contains nothing but a
 
 ***
 
-If you have trouble with this tutorial please [tell me about
-it](../contact-me.md) and I'll make this tutorial better. If you
-like this tutorial, please [give it a
-star](../README.md#how-can-i-thank-you-for-writing-and-sharing-this-tutorial).
-
-You may use this tutorial freely at your own risk. See
-[LICENSE](../LICENSE).
-
 [Previous](using-functions.md) | [Next](if.md) |
 [List of contents](../README.md#basics)

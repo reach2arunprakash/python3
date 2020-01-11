@@ -55,8 +55,8 @@ and some of these things also work with lists.
 ```python
 >>> len(names)   # len is short for length, we have 5 names
 5
->>> names + ['Akuli']   # create a new list with me in it
-['wub_wub', 'theelous3', 'RubyPinch', 'go|dfish', 'Nitori', 'Akuli']
+>>> names + ['Guvi']   # create a new list with me in it
+['wub_wub', 'theelous3', 'RubyPinch', 'go|dfish', 'Nitori', 'Guvi']
 >>> ['theelous3', 'RubyPinch'] * 2    # repeating
 ['theelous3', 'RubyPinch', 'theelous3', 'RubyPinch']
 >>>
@@ -109,12 +109,12 @@ multiple items from another list and `remove` removes an item.
 >>> names.remove('go|dfish')   # and sorry go|dfish
 >>> names
 ['wub_wub', 'RubyPinch', 'Nitori']
->>> names.append('Akuli')    # let's add me here
+>>> names.append('Guvi')    # let's add me here
 >>> names
-['wub_wub', 'RubyPinch', 'Nitori', 'Akuli']
+['wub_wub', 'RubyPinch', 'Nitori', 'Guvi']
 >>> names.extend(['go|dfish', 'theelous3'])  # wb guys
 >>> names
-['wub_wub', 'RubyPinch', 'Nitori', 'Akuli', 'go|dfish', 'theelous3']
+['wub_wub', 'RubyPinch', 'Nitori', 'Guvi', 'go|dfish', 'theelous3']
 >>>
 ```
 
@@ -161,7 +161,7 @@ and then set the result back to the same variable, like
 most mutable things because they're designed to be changed in-place.
 
 ```python
->>> names = names.remove('Akuli')
+>>> names = names.remove('Guvi')
 >>> print(names)     # now it's None!
 None
 >>>
@@ -351,14 +351,6 @@ else:
 The answers are [here](answers.md#lists-and-tuples).
 
 ***
-
-If you have trouble with this tutorial please [tell me about
-it](../contact-me.md) and I'll make this tutorial better. If you
-like this tutorial, please [give it a
-star](../README.md#how-can-i-thank-you-for-writing-and-sharing-this-tutorial).
-
-You may use this tutorial freely at your own risk. See
-[LICENSE](../LICENSE).
 
 [Previous](handy-stuff-strings.md) | [Next](loops.md) |
 [List of contents](../README.md#basics)

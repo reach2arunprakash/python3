@@ -45,30 +45,6 @@ easy to learn and we can do many different things with it. For example,
 we can create our own applications that have buttons that people can
 click instead of just using applications written by others.
 
-Before we can get started with Python we need to know how to write some of
-Python's special characters with our keyboards. Unfortunately I don't know
-which keys you need to press to produce these characters because your keyboard
-is probably different than mine. But the keyboard can tell what you
-need to press. For example, my Finnish keyboard has a key like this:
-
-![A key on my keyboard.](../images/key.png)
-
-Here's what the characters on this key mean:
-
-- I can type a number 7 by pressing this key without holding down other keys
-    at the same time.
-- I can type a `/` character by holding down the shift key (on the left edge
-    of the keyboard, between Ctrl and CapsLock) and pressing this key.
-- I can type a `{` character by holding down AltGr (on the bottom of the
-    keyboard, on the right side of the spacebar) and pressing this key.
-    Holding down Ctrl and Alt instead of AltGr may also work.
-
-The only key that doesn't have anything written on it is spacebar. It's the
-big, wide key that's closest to you. Another key that's used for producing
-whitespace is tab, the key above CapsLock.
-
-In this tutorial we need to know how to type these characters. We'll learn
-their meanings later.
 
 | Character | Names                                 |
 |-----------|---------------------------------------|
@@ -105,17 +81,6 @@ should you do if you have a problem with the tutorial?
 2. Read the code and the explanation for it again.
 3. If there's something you haven't seen before in the tutorial and it's
     not explained, try to find it in the previous chapters.
-4. If you can't find what you're looking for or you still have trouble
-   understanding the tutorial or any other problems with the tutorial,
-   please [tell me about it](../contact-me.md). I want to improve this
-   tutorial so other readers won't have the same problem as you have.
-5. See [Getting help](../getting-help.md) if you can't contact me for some
-    reason.
-
-You are free to combine this tutorial with other learning resources. If this
-tutorial isn't exactly what you're looking for you don't need to stick with
-nothing but this. You can find another tutorial and mix the tutorials however
-you want as long as you **make sure that you understand everything you read**.
 
 One of the most important things with learning to program is to **not
 fear mistakes**. If you make a mistake, your computer will not break in
@@ -156,14 +121,5 @@ if you don't understand the code.
     [get started](getting-started.md)!
 
 ***
-
-If you have trouble with this tutorial please [tell me about
-it](../contact-me.md) and I'll make this tutorial better. If you
-like this tutorial, please [give it a
-star](../README.md#how-can-i-thank-you-for-writing-and-sharing-this-tutorial).
-
-You may use this tutorial freely at your own risk. See
-[LICENSE](../LICENSE).
-
 [Previous](../README.md) | [Next](installing-python.md) |
 [List of contents](../README.md#basics)

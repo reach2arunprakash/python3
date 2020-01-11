@@ -221,9 +221,9 @@ To add a string in the middle of another string, we can do something
 like this:
 
 ```python
->>> name = 'Akuli'
+>>> name = 'Guvi'
 >>> 'My name is ' + name + '.'
-'My name is Akuli.'
+'My name is Guvi.'
 >>>
 ```
 
@@ -250,9 +250,9 @@ our problem:
 
     ```python
     >>> "Hello {}.".format(name)
-    'Hello Akuli.'
+    'Hello Guvi.'
     >>> "My name is {} and I'm on the {} channel on {}.".format(name, channel, network)
-    "My name is Akuli and I'm on the ##learnpython channel on freenode."
+    "My name is Guvi and I'm on the ##learnpython channel on freenode."
     >>>
     ```
 
@@ -264,9 +264,9 @@ our problem:
 
     ```python
     >>> "Hello %s." % name
-    'Hello Akuli.'
+    'Hello Guvi.'
     >>> "My name is %s and I'm on the %s channel on %s." % (name, channel, network)
-    "My name is Akuli and I'm on the ##learnpython channel on freenode."
+    "My name is Guvi and I'm on the ##learnpython channel on freenode."
     >>>
     ```
 
@@ -428,14 +428,6 @@ ValueError: could not convert string to float: 'hello'
 The answers are [here](answers.md#handy-stuff-strings).
 
 ***
-
-If you have trouble with this tutorial please [tell me about
-it](../contact-me.md) and I'll make this tutorial better. If you
-like this tutorial, please [give it a
-star](../README.md#how-can-i-thank-you-for-writing-and-sharing-this-tutorial).
-
-You may use this tutorial freely at your own risk. See
-[LICENSE](../LICENSE).
 
 [Previous](if.md) | [Next](lists-and-tuples.md) |
 [List of contents](../README.md#basics)
