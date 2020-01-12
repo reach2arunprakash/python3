@@ -11,6 +11,12 @@ Whats the output?
 for i in range(7):
 	if i==3: continue
 print(i)
+
+
+for i in range(7):
+    if i==3: break
+print(i)
+
 ```
 ---------------------------------------
 Expected Output: 3
