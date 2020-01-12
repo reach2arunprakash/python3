@@ -135,5 +135,4 @@ The answers are [here](answers.md).
 
 ***
 
-[Previous](loops.md) | [Next](dicts.md) |
 [List of contents](../README.md#basics)

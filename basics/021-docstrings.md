@@ -218,5 +218,4 @@ doing without having to read through all of the code.
 
 ***
 
-[Previous](classes.md) | [Next](../advanced/datatypes.md) |
 [List of contents](../README.md#basics)

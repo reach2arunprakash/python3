@@ -416,5 +416,4 @@ print("You entered " + word + ".")
 
 ***
 
-[Previous](exceptions.md) | [Next](docstrings.md) |
 [List of contents](../README.md#basics)

@@ -352,5 +352,4 @@ The answers are [here](answers.md#lists-and-tuples).
 
 ***
 
-[Previous](handy-stuff-strings.md) | [Next](loops.md) |
 [List of contents](../README.md#basics)

@@ -572,5 +572,4 @@ Answers for the first, second and third exercise are
 
 ***
 
-[Previous](dicts.md) | [Next](larger-program.md) |
 [List of contents](../README.md#basics)

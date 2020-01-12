@@ -229,5 +229,4 @@ something else when it's imported.
 ***
 
 
-[Previous](defining-functions.md) | [Next](what-is-true.md) |
 [List of contents](../README.md#basics)

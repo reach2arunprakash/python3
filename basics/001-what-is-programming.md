@@ -121,5 +121,4 @@ if you don't understand the code.
     [get started](getting-started.md)!
 
 ***
-[Previous](../README.md) | [Next](installing-python.md) |
 [List of contents](../README.md#basics)

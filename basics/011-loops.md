@@ -475,5 +475,4 @@ The answers are [here](answers.md#loops).
 
 ***
 
-[Previous](lists-and-tuples.md) | [Next](trey-hunner-zip-and-enumerate.md) |
 [List of contents](../README.md#basics)

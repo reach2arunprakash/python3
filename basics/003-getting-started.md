@@ -212,5 +212,4 @@ enough when you need to calculate something.
 
 ***
 
-[Previous](installing-python.md) | [Next](the-way-of-the-program.md) |
 [List of contents](../README.md#basics)

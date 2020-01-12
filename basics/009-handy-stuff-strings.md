@@ -429,5 +429,4 @@ The answers are [here](answers.md#handy-stuff-strings).
 
 ***
 
-[Previous](if.md) | [Next](lists-and-tuples.md) |
 [List of contents](../README.md#basics)

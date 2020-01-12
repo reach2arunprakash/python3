@@ -77,5 +77,4 @@ Now you should have Python installed, and you should be able run it.
 
 ***
 
-[Previous](what-is-programming.md) | [Next](getting-started.md) |
 [List of contents](../README.md#basics)

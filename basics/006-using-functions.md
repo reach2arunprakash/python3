@@ -228,5 +228,4 @@ should work normally.
 
 ***
 
-[Previous](variables.md) | [Next](editor-setup.md) |
 [List of contents](../README.md#basics)

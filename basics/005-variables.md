@@ -300,5 +300,4 @@ what you are doing. We'll learn more about it later.
 
 ***
 
-[Previous](the-way-of-the-program.md) | [Next](using-functions.md) |
 [List of contents](../README.md#basics)

@@ -365,5 +365,4 @@ else:
 
 ***
 
-[Previous](what-is-true.md) | [Next](modules.md) |
 [List of contents](../README.md#basics)

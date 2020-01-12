@@ -492,5 +492,4 @@ section at the bottom.
 ***
 
 
-[Previous](files.md) | [Next](exceptions.md) |
 [List of contents](../README.md#basics)

@@ -214,5 +214,4 @@ if value is None: ...  # best
 ***
 
 
-[Previous](larger-program.md) | [Next](files.md) |
 [List of contents](../README.md#basics)

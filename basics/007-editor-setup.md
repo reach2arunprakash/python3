@@ -77,5 +77,4 @@ echoes it back, but if you make a file that contains nothing but a
 
 ***
 
-[Previous](using-functions.md) | [Next](if.md) |
 [List of contents](../README.md#basics)

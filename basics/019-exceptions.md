@@ -459,5 +459,4 @@ except OSError:
 ***
 
 
-[Previous](modules.md) | [Next](classes.md) |
 [List of contents](../README.md#basics)

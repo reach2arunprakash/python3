@@ -324,5 +324,4 @@ Running the program might look like this:
 
 ***
 
-[Previous](trey-hunner-zip-and-enumerate.md) | [Next](defining-functions.md) |
 [List of contents](../README.md#basics)

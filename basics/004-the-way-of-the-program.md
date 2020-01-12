@@ -38,5 +38,4 @@ learned everything.
 
 ***
 
-[Previous](getting-started.md) | [Next](variables.md) |
 [List of contents](../README.md#basics)
