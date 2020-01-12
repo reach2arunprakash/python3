@@ -27,7 +27,7 @@ Expected Output: print "HELLO" 5 times
 ```
 for i in range(1, 10,3):
     print("HELLO")
-```	
+```
 ---------------------------------------
 
 Expected Output: 13579
@@ -57,7 +57,7 @@ if a.isalpha() == 0:
     print("You entered an alphabet")
 else:
     print("Please try again")
-```	
+  ```
 ---------------------------------------	
 
 Input: A
@@ -90,6 +90,8 @@ print(a[:1:-1])
 a=[0,1,2,3,4]
 print(a[-1])
 
+','.join('12345')
+
 ```
 ---------------------------------------
 
@@ -109,7 +111,7 @@ d=dict()
 for i in range(0,n+1):
 	d[i]=i*i
 	print(d)
-```	
+```
 ---------------------------------------
 Whats the output?
 ```	
