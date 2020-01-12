@@ -87,7 +87,7 @@ dictionary with the globals function. In this dictionary, keys are
 variable names and values are what our variables point to.
 
 ```python
->>> globals()
+globals()
 {'names_and_pets': [('horusr', 'cats'),
                     ('caisa64', 'cats and dogs'),
                     ('__Myst__', 'cats')],
@@ -111,9 +111,9 @@ Dictionaries have some similarities with lists. For example, both
 lists and dictionaries have a length.
 
 ```python
->>> len(names_and_pets)     # contains three elements
+len(names_and_pets)     # contains three elements
 3
->>> len(favorite_pets)    # contains three key:value pairs
+len(favorite_pets)    # contains three key:value pairs
 3
 >>>
 ```
@@ -122,9 +122,9 @@ We can get a value of a key with `the_dict[key]`. This is a lot easier
 and faster than for-looping over a list of pairs.
 
 ```python
->>> favorite_pets['caisa64']
+favorite_pets['caisa64']
 'cats and dogs'
->>> favorite_pets['__Myst__']
+favorite_pets['__Myst__']
 'cats'
 >>>
 ```
@@ -132,10 +132,10 @@ and faster than for-looping over a list of pairs.
 Trying to get the value of a non-existing key gives us an error.
 
 ```python
->>> favorite_pets['Akuli']
+favorite_pets['Arun']
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
-KeyError: 'Akuli'
+KeyError: 'Arun'
 >>>
 ```
 
@@ -143,15 +143,15 @@ But we can add new `key: value` pairs or change the values of existing
 keys by doing `the_dict[key] = value`.
 
 ```python
->>> favorite_pets['Akuli'] = 'penguins'
->>> favorite_pets['Akuli']
+favorite_pets['Arun'] = 'penguins'
+favorite_pets['Arun']
 'penguins'
->>> favorite_pets['Akuli'] = 'dogs'
->>> favorite_pets['Akuli']
+favorite_pets['Arun'] = 'dogs'
+favorite_pets['Arun']
 'dogs'
->>> favorite_pets
+favorite_pets
 {'__Myst__': 'cats',
- 'Akuli': 'dogs',
+ 'Arun': 'dogs',
  'horusr': 'cats',
  'caisa64': 'cats and dogs'}
 >>>
@@ -162,15 +162,15 @@ is in the dictionary checks if the dictionary has a key like that. This
 can be confusing at first but you'll get used to this.
 
 ```python
->>> 'Akuli' in favorite_pets
+'Arun' in favorite_pets
 True
->>> 'dogs' in favorite_pets
+'dogs' in favorite_pets
 False
->>> for name in favorite_pets:
+for name in favorite_pets:
 ...     print(name)
 ...
 caisa64
-Akuli
+Arun
 __Myst__
 horusr
 >>>
@@ -180,7 +180,7 @@ Dictionaries have a values method that we can use if we want to do
 something with the values:
 
 ```python
->>> favorite_pets.values()
+favorite_pets.values()
 dict_values(['dogs', 'cats', 'cats and dogs', 'cats'])
 >>>
 ```
@@ -190,7 +190,7 @@ behave a lot like lists and usually we don't need to convert them to
 lists.
 
 ```python
->>> for pets in favorite_pets.values():
+for pets in favorite_pets.values():
 ...     print(pets)
 ...
 dogs
@@ -209,15 +209,15 @@ If we need both keys and values we can use the items method with the
 `for first, second in thing` trick.
 
 ```python
->>> favorite_pets.items()
-dict_items([('Akuli', 'dogs'),
+favorite_pets.items()
+dict_items([('Arun', 'dogs'),
             ('__Myst__', 'cats'),
             ('caisa64', 'cats and dogs'),
             ('horusr', 'cats')])
->>> for name, pets in favorite_pets.items():
+for name, pets in favorite_pets.items():
 ...     print("{} are {}'s favorite pets".format(pets, name))
 ...
-dogs are Akuli's favorite pets
+dogs are Arun's favorite pets
 cats are __Myst__'s favorite pets
 cats and dogs are caisa64's favorite pets
 cats are horusr's favorite pets
@@ -228,9 +228,9 @@ This is also useful for checking if the dictionary has a `key: value`
 pair.
 
 ```python
->>> ('horusr', 'cats') in favorite_pets.items()
+('horusr', 'cats') in favorite_pets.items()
 True
->>> ('horusr', 'dogs') in favorite_pets.items()
+('horusr', 'dogs') in favorite_pets.items()
 False
 >>>
 ```
@@ -242,7 +242,7 @@ just doesn't work. I'm not going to explain why Python doesn't allow
 this because usually we don't need to worry about that.
 
 ```python
->>> stuff = {['a', 'b']: 'c', ['d', 'e']: 'f'}
+stuff = {['a', 'b']: 'c', ['d', 'e']: 'f'}
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 TypeError: unhashable type: 'list'
@@ -252,8 +252,8 @@ TypeError: unhashable type: 'list'
 On the other hand, tuples work just fine:
 
 ```python
->>> stuff = {('a', 'b'): 'c', ('d', 'e'): 'f'}
->>> stuff
+stuff = {('a', 'b'): 'c', ('d', 'e'): 'f'}
+stuff
 {('a', 'b'): 'c', ('d', 'e'): 'f'}
 >>>
 ```
@@ -261,11 +261,12 @@ On the other hand, tuples work just fine:
 The values of a dictionary can be anything.
 
 ```python
->>> stuff = {'a': [1, 2, 3], 'b': [4, 5, 6]}
->>> stuff
+stuff = {'a': [1, 2, 3], 'b': [4, 5, 6]}
+stuff
 {'a': [1, 2, 3], 'b': [4, 5, 6]}
 >>>
 ```
+
 
 ## Summary
 
