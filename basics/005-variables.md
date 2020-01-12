@@ -82,7 +82,8 @@ Variable names are case-sensitive, like many other things in Python.
 2
 >>> thIng
 3
->>>
+>>> type(thing)
+<class 'int'>
 ```
 
 There are also words that cannot be used as variable names
@@ -133,7 +134,8 @@ This is not limited to integers.
 >>> a += 'world'
 >>> a
 'hellohellohelloworld'
->>>
+>>> type(a)
+<class 'str'>
 ```
 
 Now we also understand why typing hello to the prompt didn't work in
@@ -190,7 +192,11 @@ True
 >>> a = 2
 >>> a == 1
 False
->>>
+>>> c=1==2
+>>> type(c)
+<class 'bool'>
+>>> type(1==2)
+<class 'bool'>
 ```
 
 `a == 1` is the same as `(a == 1) == True`, but `a == 1` is more
@@ -223,7 +229,11 @@ first:
 ```python
 >>> thingy = None
 >>> thingy
->>>
+>>> type(thingy)
+<class 'NoneType'>
+>>> type(None)
+<class 'NoneType'>
+
 ```
 
 That was weird! We set thingy to None, but typing `thingy` didn't echo
@@ -256,6 +266,43 @@ Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 TypeError: 'NoneType' object is not callable
 >>>
+```
+###Hexadecimal , Binary 
+
+Using the function hex(), bin() you can convert numbers into a hexadecimal format:
+
+```
+>>> hex(246)
+'0xf6'
+>>> hex(512)
+'0x200'
+>>>
+>>>
+>>> bin(1234)
+'0b10011010010'
+>>>
+>>> bin(128)
+'0b10000000'
+>>>
+>>> bin(512)
+'0b1000000000'
+>>>           
+
+```
+
+###Other Helper functions
+
+```
+>>> pow(2,4)
+16
+>>>
+>>> abs(-3)
+3
+>>>
+>>> round(3)
+3
+>>> round(3.1415926535,2)
+3.14
 ```
 
 ## Other comparing operators
