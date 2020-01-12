@@ -230,6 +230,70 @@ like this:
 
 ![Different lists.](../images/differentlist.png)
 
+### List Methods - append , count , extend , index , insert , pop ,  remove , reverse , sort
+
+```
+>>> l = [1,2,3]
+>>> l.append(4)
+>>> l.count(10)
+0
+>>> l.count(2)
+1
+>>> l.index(2)
+1
+>>> l.index(12)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: 12 is not in list
+
+>>> # Place a letter at the index 2
+... l.insert(2,'inserted')
+>>> print(l)
+[1, 2, 'inserted', 3, 4]
+
+>>> ele = l.pop()
+>>> print(ele)
+4
+>>> print(l)
+[1, 2, 'inserted', 3]
+
+>>> l.remove('inserted')
+>>> print(l)
+[1, 2, 3]
+
+>>> l = [1,2,3,4,3]
+>>> l.remove(3)
+>>> print(l)
+[1, 2, 4, 3]
+
+>>> l.reverse()
+>>> print(l)
+[3, 4, 2, 1]
+
+>>> l.sort()
+>>> print(l)
+[1, 2, 3, 4]
+```
+
+```
+>>> x = [1, 2, 3]
+>>> x.append([4, 5])
+>>> print(x)
+[1, 2, 3, [4, 5]]
+```
+
+
+```
+>>> x = [1, 2, 3]
+>>> x.extend([4, 5])
+>>> print(x)
+[1, 2, 3, 4, 5]
+```
+
+
+
+
+
 ## Tuples
 
 Tuples are a lot like lists, but they're immutable so they
