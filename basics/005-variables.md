@@ -333,6 +333,25 @@ False, and if `value` is False, `not value` is True.
 There's also `is`, but don't use it instead of `==` unless you know
 what you are doing. We'll learn more about it later.
 
+### Chained Comparison Operators
+Dont use this...its not a clean code if you use this 
+
+An interesting feature of Python is the ability to chain multiple comparisons to perform a more complex test. You can use these chained comparisons as a shorthand for larger Boolean Expressions.
+
+```
+>>> 1 < 2 < 3
+True
+>>> 1<2 and 2<3
+True
+>>>
+>>>
+>>> 1 < 3 > 2
+True
+>>>
+>>> 1<3 and 3>2
+True
+```
+
 ## Summary
 
 - Variables have a name and a value. We can create or change variables
