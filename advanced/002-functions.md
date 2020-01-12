@@ -290,5 +290,4 @@ does, so using keyword-only arguments makes sense.
 
 ***
 
-[Previous](datatypes.md) | [Next](magicmethods.md) |
 [List of contents](../README.md#advanced)

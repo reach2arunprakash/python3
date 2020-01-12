@@ -390,5 +390,4 @@ code on Python versions older than 3.5.**
 
 ***
 
-[Previous](../basics/docstrings.md) | [Next](functions.md) |
 [List of contents](../README.md#advanced)

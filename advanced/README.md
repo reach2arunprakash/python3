@@ -13,10 +13,10 @@ techniques just because you know how to use them.** Prefer the simple
 techniques from the Basics part instead when possible. Simple is better
 than complex.
 
-1. [Handy data types](datatypes.md)
-2. [Advanced stuff with functions](functions.md)
-3. [Magic methods](magicmethods.md)
-4. [Iterables, iterators and generators](iters.md)
+1. [Handy data types](001-datatypes.md)
+2. [Advanced stuff with functions](002-functions.md)
+3. [Magic methods](003-magicmethods.md)
+4. [Iterables, iterators and generators](004-iters.md)
 
 ***
 [List of contents](../README.md#list-of-contents)

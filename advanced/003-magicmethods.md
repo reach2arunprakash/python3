@@ -235,6 +235,4 @@ are not meant to be imported.
 
 ***
 
-
-[Previous](functions.md) | [Next](iters.md) |
 [List of contents](../README.md#advanced)

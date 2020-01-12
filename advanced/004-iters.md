@@ -463,5 +463,4 @@ does the same thing as our `count()`.
   contains many useful iterator-related things.
 ***
 
-[Previous](magicmethods.md) | [Next](../README.md) |
 [List of contents](../README.md#advanced)
