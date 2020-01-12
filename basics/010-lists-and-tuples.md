@@ -230,6 +230,12 @@ like this:
 
 ![Different lists.](../images/differentlist.png)
 
+### Assign multiple var to values in list?
+
+cat = ['fat', 'orange', 'loud']
+size, color, disposition = cat
+
+
 ### List Methods - append , count , extend , index , insert , pop ,  remove , reverse , sort
 
 ```
