@@ -431,6 +431,43 @@ while True:
         print("I can't find it :(", file=sys.stderr)
 ```
 
+### Collections Module
+
+The collections module is a built-in module that implements specialized container data types providing alternatives to Python’s general purpose built-in containers. We've already gone over the basics: dict, list, set, and tuple.
+
+Counter
+
+Counter is a dict subclass which helps count hash-able objects. Inside of it elements are stored as dictionary keys and the counts of the objects are stored as the value.
+
+Lets see how it can be used:
+
+```
+>>> from collections import Counter
+>>> l = [1,2,2,2,2,3,3,3,1,2,1,12,3,2,32,1,21,1,223,1]
+>>> Counter(l)
+Counter({1: 6, 2: 6, 3: 4, 12: 1, 32: 1, 21: 1, 223: 1})
+>>>
+>>> Counter('aabsbsbsbhshhbbsbs')
+Counter({'b': 7, 's': 6, 'h': 3, 'a': 2})
+```
+
+#### Counter with words in a sentence
+
+```
+>>> s = 'How many times does each word show up in this sentence word times each each word'
+>>> words = s.split()
+>>> Counter(words)
+Counter({'each': 3, 'word': 3, 'times': 2, 'How': 1, 'many': 1, 'does': 1, 'show': 1, 'up': 1, 'in': 1, 'this': 1, 'sentence': 1})
+
+
+>>> # Methods with Counter()
+...
+>>> c = Counter(words)
+>>> c.most_common(2)
+[('each', 3), ('word', 3)]
+
+```
+
 ## More modules!
 
 Python's standard library has many awesome modules and I just
