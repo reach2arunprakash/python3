@@ -512,6 +512,13 @@ choice = ask_until_correct("What's your favorite color?", colors,
                            error_message="I don't know that color.")
 print("Your favorite color is %s!" % choice)
 ```
+## args
+
+def func(*args):
+    for i in args:
+        print(i)  
+
+func(3,2,1,4,7)
 
 ## Summary
 
