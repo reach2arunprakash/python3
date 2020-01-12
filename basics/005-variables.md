@@ -267,7 +267,7 @@ Traceback (most recent call last):
 TypeError: 'NoneType' object is not callable
 >>>
 ```
-###Hexadecimal , Binary 
+### Hexadecimal , Binary 
 
 Using the function hex(), bin() you can convert numbers into a hexadecimal format:
 
@@ -290,7 +290,7 @@ Using the function hex(), bin() you can convert numbers into a hexadecimal forma
 
 ```
 
-###Other Helper functions
+### Other Helper functions
 
 ```
 >>> pow(2,4)
