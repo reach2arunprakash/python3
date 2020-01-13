@@ -1,6 +1,6 @@
-#Fix the below in paper -
+# Fix the below in paper -
 
-##Mandatory : Dont use compiler till you solve in paper
+## Mandatory : Dont use compiler till you solve in paper
 
 Input: -
 
