@@ -11,6 +11,19 @@ print(Myname)
 ```
 
 ---------------------------------------
+Expected Output: GUVI
+
+```
+
+if True<=False:
+	op = "GUVI"
+else:
+	op ="Geeks" 
+print(op)
+
+```
+
+---------------------------------------
 
 Expected Output: GUVI
 
@@ -196,6 +209,17 @@ def info():
 info()
 ```
 ---------------------------------------
+
+Whats the output?
+
+```
+
+this_is_confusing=3,4,5
+print(this_is_confusing)
+
+```
+
+---------------------------------------
 Whats the output?
 
 ```
@@ -264,4 +288,43 @@ for i in range(2000, 2020):
     if (i%7==0) and (i%5==0):
         l.append(str(i))
 print(l)
+```
+
+---------------------------------------
+Input: This is some text
+
+Expected Output: THIS IS SOME TEXT
+
+
+```
+while True:
+    s = input()
+    if s:
+        lines.append(s.upper())
+    else:
+        break;
+
+for sentence in lines:
+    print(sentence)
+```
+
+---------------------------------------
+Input: GUVI 123456789
+
+Expected Output: Alphabets 4
+				 Nums 9
+
+
+```	
+s = input()
+for c in s:
+    if c.isdigit():
+        d["Nums"]=1
+    elif c.isalpha():
+        d["Alphabets"]=1
+    else:
+        pass
+print("Alphabets", d["Alphabets"])
+print ("Nums", d["Nums"])
+
 ```
