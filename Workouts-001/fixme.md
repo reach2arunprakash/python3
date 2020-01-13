@@ -238,6 +238,15 @@ print(a)
 Whats the output?
 
 ```
+my_list = [num for num in range(0, 100)]
+my_slice = my_list[30:70:2]
+print(my_slice)
+
+```
+---------------------------------------
+Whats the output?
+
+```
 mylist=[0,1,2,3,4,5,6,7,8]
 print(mylist[-3:-1])
 ```
@@ -326,5 +335,127 @@ for c in s:
         pass
 print("Alphabets", d["Alphabets"])
 print ("Nums", d["Nums"])
+
+```
+
+---------------------------------------
+Whats the output?
+
+```
+import random
+
+my_list = [num for num in range(0, 10) if num % 2 == 0]
+
+my_dict = {num:random.randint(0, 10) for num in my_list}
+print(my_dict)
+
+```
+
+---------------------------------------
+Whats the output?
+
+```
+import random
+names = ["ABD", "Virat", "Dravid", "Smith"]
+scores = [random.randint(0, 100) for name in names]
+print(scores)
+
+for name, score in zip(names, scores):
+    print(f"{name} got a score of {score}")
+	
+for p in zip(names, scores):
+    print(p)
+	
+```
+
+---------------------------------------
+Input: -
+
+Expected Output: I drive a BMW X1. It runs on Petrol.
+
+```
+class Vehicle:
+
+    def __init__(self, make, model, fuel="gas"):
+        self.make = make
+        self.model = model
+        self.fuel = fuel
+
+daily_driver = Vehicle("BMW", "X1")
+# By default, this is how python represents our object:
+print(daily_driver)
+
+# The variables we saved to the instance are available like this:
+print(f"I drive a {daily_driver.__} {daily_driver.__}. It runs on {daily_driver.__}.")
+
+```
+
+---------------------------------------
+Input: -
+
+Expected Output: Most vehicles have 4 wheels.
+
+```
+#Don't Touch the class
+class Vehicle:
+    number_of_wheels = 0
+    def __init__(self, make, model, fuel="gas"):
+        self.make = make
+        self.model = model
+        self.fuel = fuel
+
+daily_driver = Vehicle("BMW", "Ferrari")
+
+#Set the value here for number_of_wheels
+
+ 
+#Class variable
+print(f"Most vehicles have {Vehicle.number_of_wheels} wheels.")
+
+```
+
+---------------------------------------
+Input: -
+
+Expected Output: 
+
+Is my daily driver a car? True
+Is my Car a Vehicle? False
+Is my truck a Car? False
+Is a Car a subclass of Vehicle? False
+
+```
+
+class Vehicle:
+
+    def __init__(self, make, model, fuel="gas"):
+        self.make = make
+        self.model = model
+        self.fuel = fuel
+
+
+class Car():
+
+    number_of_wheels = 4
+
+
+class Truck(Vehicle):
+
+    number_of_wheels = 6
+
+    def __init__(self, make, model, fuel="diesel"):
+        super().__init__(make, model, fuel)
+
+
+daily_driver = Car()
+truck = Truck("Ford", "F350")
+
+
+
+print(f"Is my daily driver a car? {isinstance(daily_driver, Car)}")
+print(f"Is my Car a Vehicle? {isinstance(daily_driver, Vehicle)}")
+print(f"Is my truck a Car? {isinstance(truck, Car)}")
+
+print(f"Is a Car a subclass of Vehicle? {issubclass(Car, Vehicle)}")
 
 ```
