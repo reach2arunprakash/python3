@@ -1,4 +1,5 @@
 Fix the below in paper -
+
 Mandatory : Dont use compiler till you solve in paper
 
 Input: -
@@ -8,8 +9,33 @@ Expected Output: GUVI
 myname='GUVI'
 print(Myname)
 ```
+
+---------------------------------------
+
+Expected Output: GUVI
+
+```
+if 3.5 % 1.5 == 0:
+	op = "GUVI"
+else:
+	op ="Geek" 
+print(op)
+```
 ---------------------------------------
 Whats the output?
+
+```
+a = 3.5 
+
+if( a == 7//2 ):
+	print("GUVI")
+else:
+	print("Geek")
+```
+
+---------------------------------------
+Whats the output?
+
 ```
 for i in range(7):
 	if i==3: continue
