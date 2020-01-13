@@ -1,4 +1,7 @@
-Fix the below 
+Fix the below in paper -
+Mandatory : Dont use compiler till you solve in paper
+
+Input: -
 
 Expected Output: GUVI
 ```
@@ -19,7 +22,11 @@ print(i)
 
 ```
 ---------------------------------------
+
+Input: -
+
 Expected Output: 3
+
 ```
 data = 0
 for i in range(7):
@@ -36,6 +43,8 @@ for i in range(1, 10,3):
 ```
 ---------------------------------------
 
+Input: -
+
 Expected Output: 13579
 ```
 a = range(1,10,2)
@@ -43,6 +52,7 @@ print (a)
 ```
 ---------------------------------------
 Input: 50
+
 Expected Output: 1275
 
 ```
@@ -55,6 +65,7 @@ print(sum)
 ---------------------------------------
 
 Input: guvi
+
 Expected Output: You entered an alphabet
 
 ```
@@ -67,6 +78,7 @@ else:
 ---------------------------------------	
 
 Input: A
+
 Expected Output: You entered a vovel
 
 ```	
@@ -78,6 +90,7 @@ else:
 ```
 ---------------------------------------
 Input: 100 12 2
+
 Expected Output: 24
 
 ```
@@ -89,6 +102,7 @@ print(SI)
 ```
 ---------------------------------------
 Whats the output?
+
 ```
 a = [1,2,3,4]
 print(a[:1:-1])
@@ -102,6 +116,7 @@ print(a[-1])
 ---------------------------------------
 
 Expected Output: ['a', 'b', 'c', 'e']
+
 ```
 mydict={'a':1,'b':2,'c':3,'e':5}
 a = [mydict.keys()]
@@ -109,7 +124,9 @@ print(a)
 ```
 ---------------------------------------
 Input: 5
+
 Expected Output: {1: 1, 2: 4, 3: 9, 4: 16}
+
 
 ```
 n=int(input())
@@ -120,6 +137,7 @@ for i in range(0,n+1):
 ```
 ---------------------------------------
 Whats the output?
+
 ```	
 a, b = 2, 3
 minvalue = a if a < b else b
@@ -127,18 +145,21 @@ print(minvalue)
 ```
 ---------------------------------------
 Whats the output?
+
 ```
 g = lambda x, y : x*y
 print(g(1, 2))
 ```
 ---------------------------------------
 Whats the output?
+
 ```
 g = lambda x, y = 0, z = 0: x+y+z
 print(g(1))
 ```
 ---------------------------------------
 Whats the output?
+
 ```
 global_var = "GUVI" # global variable
 def info():
@@ -150,6 +171,7 @@ info()
 ```
 ---------------------------------------
 Whats the output?
+
 ```
 a = 1
 try:
@@ -164,13 +186,16 @@ print(a)
 ```
 ---------------------------------------
 Whats the output?
+
 ```
 mylist=[0,1,2,3,4,5,6,7,8]
 print(mylist[-3:-1])
 ```
 ---------------------------------------
 Input: 0
+
 Expected Output: "You entered Zero"
+
 
 ```
 a=input("Enter a number...\n")
@@ -184,22 +209,28 @@ else:
 ```
 ---------------------------------------
 Input: -
+
 Expected Output: [10]
+
 ```
 List = [1,2,3,4,5,6,7,8,9,10]
 print(List[:])
 ```
 ---------------------------------------
 Input: -
+
 Expected Output: [9,8,7]
+
 ```	
 List = [1,2,3,4,5,6,7,8,9,10]
 print(List[:])
 ```
 
 ---------------------------------------
+Input: -
 
 Expected Output: ['2002', '2009', '2016']
+
 
 ```
 l=[]
