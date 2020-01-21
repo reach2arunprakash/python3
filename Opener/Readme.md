@@ -9,12 +9,14 @@ Theory - Walk thro with the basics folder
 In Session Workouts: Mandatory - Do it in Paper - Not in laptop
 
 Loop until Q
+
 Uber Billing -       
 
-Workout 001 - questions till loops
+Workout 001 - Debug questions till loops
 
-Post Session Workouts:
+https://github.com/reach2arunprakash/python3/blob/master/Workouts-001/fixme.md
 
+## Post Session Workouts:
 Number Guessing Game
 Hangman game
 
@@ -35,9 +37,12 @@ Contact Manager - Dict
 Todo List - List 
 Password Hashing - Dict Internals 
 
+Workout 001 - questions till last 
+https://github.com/reach2arunprakash/python3/blob/master/Workouts-001/fixme.md
+
 Kahoot
 
-Post Session Workouts:
+## Post Session Workouts:
 
 Rock Paper Scissor - Dict & List 
 Quiz Game - Dict 
