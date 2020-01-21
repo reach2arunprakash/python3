@@ -1,6 +1,8 @@
 Prerq- Complete the Python course - 60% Mandatory 
 
-# Day 0: Assesment + Use "Python in 20 mins.ppt" slide to start the session ( 1 hr)
+# Day 0: Pre-Assesment + Use "Python in 20 mins.ppt" slide to start the session ( 1 hr)
+
+https://github.com/reach2arunprakash/python3/blob/master/Opener/Python%20in%2020%20mins.pptx
 
 # Day 1: Variables , Operators , Conditions & Loops 
 
