@@ -60,7 +60,12 @@ Kahoot
 Full problem solving
 
 # Day 4 : files , pip , flask 
-Pre Read: pip requests & flask 
+Pre Read: 
+
+pip requests & flask
+Install Module - 
+pip install requests
+pip install Flask
 
 Kahoot
 
