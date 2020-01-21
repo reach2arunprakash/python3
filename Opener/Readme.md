@@ -1,6 +1,6 @@
 Prerq- Complete the Python course - 60% Mandatory 
 
-# Day 0: Assesment + Use this slide to start the session ( 1 hr)
+# Day 0: Assesment + Use "Python in 20 mins.ppt" slide to start the session ( 1 hr)
 
 # Day 1: Variables , Operators , Conditions & Loops 
 
@@ -25,5 +25,41 @@ Pre read: Basics folder
 Theory - Walk thro Baiscs folder 
 
 In Session workouts: Tasks in Basics folder
+
+https://github.com/reach2arunprakash/python3/blob/master/Workouts-001/dict_parsing.py
+
+
+Pascal Triangle - loops 
+Calculator  - function
+Contact Manager - Dict 
+Todo List - List 
+Password Hashing - Dict Internals 
+
+Kahoot
+
+Post Session Workouts:
+
+Rock Paper Scissor - Dict & List 
+Quiz Game - Dict 
+Restcountries - Dict
+
+
+# Day 3 : Code Kata - Absolute beginner , Math , String , Arrays
+In Session:
+   Removing duplicates
+   Number sequence generator
+   
+Kahoot 
+Full problem solving
+
+# Day 4 : files , pip , flask 
+
+Kahoot
+
+# Day 5 : Code Kata 1 hr - Assesment - 1.5 hrs
+
+Week 2:
+
+# OOPS
 
 
