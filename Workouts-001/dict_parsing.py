@@ -1,5 +1,38 @@
 #Workouts
 
+#Sort the list 
+l1 = [3, 1, 4, 2, 5]
+
+#print the squares of all the number in the list 
+l2 = [3, 1, 4, 2, 5]
+
+#print all the elements in the list 
+
+l3 = [
+    (105, "d"),
+    (21, "z"),
+    (0, "v")
+]
+
+#Print all the value in the list
+#print the hex value of green
+#print the hex codes of all colors
+
+l = [
+    {
+        "color": "red",
+        "value": "#f00"
+    },
+    {
+        "color": "green",
+        "value": "#0f0"
+    },
+    {
+        "color": "blue",
+        "value": "#00f"
+    }
+]
+
 #Print the languages that are inferior to Python
 
 py = {'Python': 'Rocks', 'inferior': ['java', 'cobol']}
