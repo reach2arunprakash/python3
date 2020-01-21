@@ -60,6 +60,7 @@ Kahoot
 Full problem solving
 
 # Day 4 : files , pip , flask 
+Pre Read: pip requests & flask 
 
 Kahoot
 
